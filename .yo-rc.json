@@ -1,0 +1,10 @@
+{
+  "generator-mjs": {
+    "githubName": "Steve Witman",
+    "githubEmail": "stevewitman@gmail.com",
+    "githubNameAndEmail": "Steve Witman <stevewitman@gmail.com>",
+    "appName": "bookstore",
+    "appDescription": "boolstore example app",
+    "appAuthor": "Steve Witman <stevewitman@gmail.com>"
+  }
+}
