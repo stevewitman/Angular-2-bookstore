@@ -5,10 +5,10 @@ import {Http, Response} from 'angular2/http';
 import {Observable} from 'rxjs/Observable';
 
 @Injectable()
-export class MusicService{
+export class MoviesService{
   constructor(http){
     this.http = http;
-    this.url = '/mock/music';
+    this.url = '/mock/movies';
   }
 
   static get parameters(){
@@ -28,6 +28,6 @@ export class MusicService{
 
   handleError(err){
     console.error(err);
-    return Observable.throw(error.json().error || 'Error in MusicService');
+    return Observable.throw(error.json().error || 'Error in MoviesService');
   }
 }

@@ -7,6 +7,7 @@ import {BooksService} from './books.service';
   selector: 'my-books',
   templateUrl: 'components/books/books.component.html',
   styleUrls: ['components/books/books.component.css'],
+  directives: [MusicComponent]
 })
 export class BooksComponent{
   constructor(booksService){
