@@ -1,7 +1,7 @@
 'use strict';
 
 import {Component} from 'angular2/core';
-import {MoviesService} from ',/movies.service';
+import {MoviesService} from './movies.service';
 
 @Component({
   selector: 'my-movies',
